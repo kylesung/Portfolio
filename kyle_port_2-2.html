@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+		
+		body{
+			 background-image: linear-gradient(to right,#D09683,#D09683,#D09683,#D09683,#D09683);
+		}
+		#title{
+			-webkit-text-stroke: 1px black;
+			color: white;
+			font-size:75px;
+			text-shadow:
+			3px 3px 0 #000,
+			-1px -1px 0 #000,  
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		}
+		#title_2{
+			-webkit-text-stroke: 1px #363237;
+			color: #2D4262;
+			font-size:35px;
+			text-shadow:
+			1px 1px 0 #000,
+			-1px -1px 0 #000,  
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		}
+		#title_3{
+			-webkit-text-stroke: 1px black;
+			color: white;
+			font-size:28px;
+			text-shadow:
+			1px 1px 0 #000,
+			-1px -1px 0 #000,  
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		}
+		
+		
+		#logo_2{
+			height:40px;
+			width:115px;
+		}
+		#top{
+			padding-left:90px;
+			padding-top:40px;
+			padding-bottom:30px;
+			background-image: linear-gradient(to right,#D09683,#D09683,#D09683,#D09683,#D09683);
+		}
+		#bottom{
+			 background-image: linear-gradient( to right, #D09683,#D09683,#D09683,#D09683,#D09683);
+		}
+		
+		.slots{
+			border-style: dashed;
+			border-width:2px;
+			border-color: black;
+			border-radius: 35px;
+			width:320px;
+			margin:28px;
+			padding:30px;
+			box-shadow: 5px 10px #73605B;
+			
+		}
+		
+		#slot_1{
+			background-image: linear-gradient(to right, #2D4262,#2D4262,#2D4262,#2D4262,#2D4262);
+		}
+		#slot_2{
+			background-image: linear-gradient(to right,#2D4262,#2D4262,#2D4262,#2D4262,#2D4262);
+		}
+		#slot_3{
+			background-image: linear-gradient(to right,#2D4262,#2D4262,#2D4262,#2D4262,#2D4262);
+		} 
+		#para_1{
+			color:white;
+			font-size:18px;
+		}
+		#para_2{
+			color:white;
+			font-size:18px;
+		}
+		#para_3{
+			font-size:18px;
+			color:white;
+		}
+		#para_4{
+			color: white;
+			font-size:20px;
+		}
+	
+		#stop{
+			color:black;
+		}
+		.headers{
+			-webkit-text-stroke: 1px black;
+			color: white;
+			text-shadow:
+			3px 3px 0 #000,
+			-1px -1px 0 #000,  
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		}
+		.headers_2{
+			-webkit-text-stroke: 1px black;
+			color: white;
+			text-shadow:
+			1px 1px 0 #000,
+			-1px -1px 0 #000,  
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		}
+		#kyle_i{
+			border-style: none;
+			border-width:2px;
+			border-color: black;
+			border-radius: 35px;
+			box-shadow: 5px 10px #73605B;
+		}
+       
+        body, html {
+        height: 100%;
+        margin: 0;
+		}
+			
+		.buttons {
+			display: inline-block;
+			padding: 5px 12px;
+			font-size: 15px;
+			cursor: pointer;
+			text-align: center;
+			text-decoration: none;
+			outline: none;
+			color: #fff;
+			background-color: #4CAF50;
+			border: none;
+			border-radius: 15px;
+			margin-bottom:15px;
+		}
+
+		.buttons:hover {background-color: #3e8e41}
+
+		.buttons:active {
+			background-color: #3e8e41;
+			transform: translateY(4px);
+        }
+
+		.spacing {
+			margin-top: 8px;
+		}
+
+		#btn_4{
+			margin-top: 8px;
+		}
+
+		#space {
+			margin-top: 2px;
+		}
+
+		#space_2 {
+			margin-bottom: 2px;
+		}
+
+    </style>
+</head>
+<body>
+
+		<div id="top" class="jumbotron text-left">
+    		<h1 id="title">Kyle Sung</h1>
+    		<h3 id="title_2"> Designer, Innovator, Writer, Data Scientist </h3>
+			<h5 id="title_3"> I'm a UI/UX Designer studying at UCSD. </h5>
+ 		 </div>
+		<div class="contrainer">
+ 		 <img id="kyle_i" src="images/classy_pic.jpg" class="rounded mx-auto d-block" height=" 415" width="420" >
+		</div>
+		<div class="container">
+  		<div class="row">
+    		<div id="slot_1" class="slots">
+	 		 <h2 class="headers">Projects</h2>
+	  			<h3 id="space_2" class="headers">Co-Op</h3>
+				<h3 id="space" class="headers">UI/UX Designer</h3>
+          		<p id="para_1" class="para">An application that integrates veterans with PTSD into the community... </p>
+		  		<button id="btn_1" class = "buttons" onclick="info(this.id)" value ="1">read more</button> 
+     		 <h3 class="headers">The Steakholders UI/UX Designer</h3>
+        		  <p id="para_2">Worked on designing a solution for individuals with dietary restrictions...</p> 
+		 		 <button id="btn_2" class = "buttons" onclick="info(this.id)" value ="1">read more</button>
+    		</div>
+    		<div id="slot_2" class="slots">
+      		<h3 class="headers">About me</h3>
+      		<p id="para_3">I am a Math/Econ and Cognitive major with a Specialization in Machine Learning and Neural Computation at UC San Diego. I enjoy learning and am always looking for new challenges.</p>
+      		<button id="btn_3" class = "buttons" onclick="info(this.id)" value ="1">read more</button>
+    		</div>
+    		<div id="slot_3" class="slots">
+	  			<h3 class="headers spacing">Contact me</h3>
+				<h4 class="headers_2 spacing">Email:</h4>
+          		<a id="para_4" href="mailto:k6sung@ucsd.edu">k6sung@ucsd.edu</a>
+        		<h4 class="headers_2 spacing">Follow me on:</h4>
+          		<input id="logo_2" type="image" src="images/linkedin_logo.png" onclick="logo_links()"/>
+        		<h4 class="headers_2 spacing">Resume:</h4>
+				<a href="Kyle_Sung_Resume.pdf" download="Kyle_Sung_Resume.pdf">
+				<button Id="btn_4" class = "buttons" >download</button>
+				</a>
+			</div>
+		</div>
+		</div>
+
+
+			<div id="bottom" class="jumbotron" height="15p">
+	
+		</div>
+  
+</body>
+<script>
+	
+	function info(x)
+	{
+		if (x == 'btn_1'){
+			if (document.getElementById("btn_1").value == '1'){
+				
+				document.getElementById("para_1").innerHTML ="An application that integrates veterans with PTSD into the community by helping then develop skills and connect with others.";
+				document.getElementById("btn_1").innerHTML = "read less";
+				document.getElementById("btn_1").value = "2";
+			}else{
+				document.getElementById("para_1").innerHTML = "An application that integrates veterans with PTSD into the community.........";
+				document.getElementById("btn_1").innerHTML ="read more";
+				document.getElementById("btn_1").value = "1";
+			}
+		}
+		if (x == 'btn_2'){
+			if (document.getElementById("btn_2").value == '1'){
+				
+				document.getElementById("para_2").innerHTML ="Worked on designing a solution for individuals with dietary restrictions using human-centered design principles";
+				document.getElementById("btn_2").innerHTML = "read less";
+				document.getElementById("btn_2").value = "2";
+			}else{
+				document.getElementById("para_2").innerHTML = "Worked on designing a solution for individuals with dietary restrictions...";
+				document.getElementById("btn_2").innerHTML ="read more";
+				document.getElementById("btn_2").value = "1";
+			}
+		}
+		if (x == 'btn_3'){
+			if (document.getElementById("btn_3").value == '1'){
+				
+				document.getElementById("para_3").innerHTML ="I am a Math/Econ major and Cognitive Science major with a Specialization in Machine Learning and Neural Computation at UC San Diego. I enjoy learning and am always looking for new challenges. In my free time, I like eating food, watching Netflix, daydreaming, reading, and playing board games. My personal goal as a student is to absorb as much knowledge as possible while improving upon my current skillset.";
+				document.getElementById("btn_3").innerHTML = "read less";
+				document.getElementById("btn_3").value = "2";
+			}else{
+				document.getElementById("para_3").innerHTML = "I am a Math/Econ and Cognitive Science major with a Specialization in Machine Learning and Neural Computation at UC San Diego. I enjoy learning and am always looking for new challenges.";
+				document.getElementById("btn_3").innerHTML ="read more";
+				document.getElementById("btn_3").value = "1";
+			}
+		}
+	}
+	function logo_links(){
+		window.location.href = "https://www.linkedin.com/in/kyle-sung-b02664155?trk=people-guest_profile-result-card_result-card_full-click"
+	}
+</script>
+</html>
